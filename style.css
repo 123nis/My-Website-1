@@ -1,0 +1,33 @@
+h1 {
+    color: brown;
+}
+
+* {
+    border: solid;
+}
+.Header{
+    background-color: chartreuse;
+     justify-content: space-between;
+     background-image:url("bg.jpg") ;
+     background-size:cover ;
+     height:800px;
+     background-position: center;
+     
+}
+.grid{
+    justify-content: space-evenly;
+    display:flex;
+    background-color: crimson;
+    flex-wrap:wrap;
+}
+.g1{
+justify-content:left;
+display:flex;
+background-color: cyan;
+
+flex-shrink: initial;
+}
+p,h2{
+    text-align:center;
+    background-color: lightcoral;
+}
